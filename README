@@ -1,0 +1,13 @@
+Ray Lui
+rlui05
+
+When running my program, use "make mush2", to remove object files, use
+"make clean". My mush2 supports all commands, in interactive mode and
+also when provided a file.
+
+I did not get to sigint handling in interactive mode, so a CTRL C will
+just print out, if you type a command after CTRL C, such as "ls", it 
+still works. I do block and unblock sigints before forking and when a 
+child is made.
+
+It has been an awesome quarter Professor, I've learned so much, thank you!

@@ -1,0 +1,6 @@
+ls
+echo Hello World!|wc -w
+ls | wc -l
+echo "Hello" | tr '[:lower:]' '[:upper:]' | wc -c
+echo Hello World! | wc -w > output.txt
+cd testDir
